@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BH8ikDkmtwVnVyIcMd1eNa0uUo8bSP7RZc9AmgQ4ys0=",
+  "Source": "AppFactura",
+  "BasePath": "_content/AppFactura",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
