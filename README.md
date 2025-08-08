@@ -28,6 +28,10 @@ With credentials (MySql)
 ```
 Scaffold-DbContext "server=servername;port=portnumber;user=username;password=pass;database=databasename" MySql.EntityFrameworkCore -OutputDir Entities –f
 ```
+```
+Scaffold-DbContext "Data Source=192.168.3.4,4321;Initial Catalog=db_name;User ID=mi_usuario;Password=mi_contraseña;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models_Folder -Tables tb_name -Force
+```
+
 In `appsettings.js` Add conn (& delete in `DbFacturaContext` method)
 
 
